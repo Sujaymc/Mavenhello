@@ -9,7 +9,7 @@ object Newspark {
     val sc = new SparkContext(conf)
 
 
-    //Create RDD from parallelize
+    //Create RDD from parallelizee
     val dataSeq = Seq(("Java", 20000), ("Python", 100000), ("Scala", 3000))
     val rdd = sc.parallelize(dataSeq)
     println(rdd.collect().foreach(print))
