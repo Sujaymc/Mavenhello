@@ -72,7 +72,5 @@ object spark_csv {
     println("DataFrame*****************************")
     val stddevPrice = priceStats.getAs[Double]("stddev")
 
-
-
   }
 }
